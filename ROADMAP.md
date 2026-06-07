@@ -37,8 +37,8 @@ Usamos **Versionado Semántico** `MAJOR.MINOR.PATCH`:
 | **v0.2.0** | Render estático | Un reel completo armado (frame fijo) | 1 día | Fase 1 | ✅ |
 | **v0.3.0** | Motor de pasos | INNER + LEFT animados paso a paso | 1½ día | Fase 2 | ✅ |
 | **v0.4.0** | Conectores | Líneas punteadas SVG + autoplay | 1 día | Fase 3 | ✅ |
-| **v0.5.0** | Catálogo de JOINs | RIGHT, FULL, CROSS, SELF | 1 día | Fase 4 | 🟦 |
-| **v0.6.0** | Cláusulas | WHERE, GROUP BY, HAVING, ORDER BY, DISTINCT, NULL | 1½ día | Fase 4 | ⬜ |
+| **v0.5.0** | Catálogo de JOINs | RIGHT, FULL, CROSS, SELF | 1 día | Fase 4 | ✅ |
+| **v0.6.0** | Cláusulas | WHERE, GROUP BY, HAVING, ORDER BY, DISTINCT, NULL | 1½ día | Fase 4 | 🟦 |
 | **v0.7.0** | Vista interna Oracle | Métodos físicos: Hash, Sort-Merge, Nested Loops | 1½ día | Fase 4 | ⬜ |
 | **v0.8.0** | UX mobile y narrativa | Gestos, stories, narración, UI social | 1 día | Fase 5 | ⬜ |
 | **v0.9.0** | A11y + rendimiento + i18n | Teclado, ARIA, Lighthouse ≥ 90 | 1 día | Fase 5 | ⬜ |
@@ -47,7 +47,7 @@ Usamos **Versionado Semántico** `MAJOR.MINOR.PATCH`:
 
 **Esfuerzo total estimado:** ~10–12 días de desarrollo enfocado.
 
-> **Avance al 2026-06-06:** v0.1.0 → v0.4.0 implementadas y verificadas (motor de joins probado en Node: INNER=3, LEFT=4, RIGHT=4, FULL=5). **v0.5.0 en curso**: RIGHT y FULL listos; faltan CROSS y SELF. App ejecutándose localmente en `http://localhost:8000`.
+> **Avance al 2026-06-06:** v0.1.0 → v0.5.0 implementadas y verificadas (7 lecciones probadas en Node: INNER=3, LEFT=4, RIGHT=4, FULL=5, CROSS=6, SELF=3, LEFT+WHERE=2). **v0.6.0 en curso**: lección WHERE (rompe el outer join) lista; faltan GROUP BY, HAVING, ORDER BY y DISTINCT. App ejecutándose localmente en `http://localhost:8000`.
 
 ### Línea de tiempo
 

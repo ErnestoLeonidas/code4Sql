@@ -90,3 +90,4 @@ export const formatoFecha = (iso) =>
 // --- Utilidades de búsqueda ---
 export const empleadoPorId = (id) => HR_CL.empleados.find((e) => e.id_empleado === id);
 export const departamentoPorId = (id) => HR_CL.departamentos.find((d) => d.id_departamento === id);
+export const cargoPorId = (id) => HR_CL.cargos.find((c) => c.id_cargo === id);
