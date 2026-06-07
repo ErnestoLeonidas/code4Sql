@@ -1,0 +1,32 @@
+/* ============================================================
+   Code4SQL — Tema (variables de diseño)
+   Paleta extraída de las imágenes de referencia (reels datavverse).
+   ============================================================ */
+:root {
+  --c4s-bg:        #0b0f17;  /* fondo casi negro azulado */
+  --c4s-surface:   #121826;  /* tarjetas / paneles */
+  --c4s-surface-2: #1b2436;  /* paneles internos (scratchpad) */
+  --c4s-border:    #233047;
+  --c4s-text:      #e6edf3;  /* texto principal */
+  --c4s-muted:     #7d8aa0;  /* secundario / nº de línea */
+  --c4s-accent:    #22d3ee;  /* cian — títulos, línea activa */
+  --c4s-accent-2:  #2dd4bf;  /* teal — JOIN destacado */
+  --c4s-ok:        #4ade80;  /* verde — match */
+  --c4s-warn:      #fb923c;  /* naranjo — pendiente / sin pareja */
+  --c4s-link:      #ef4444;  /* rojo — conectores punteados */
+  --c4s-kw:        #a78bfa;  /* violeta — keywords SQL */
+  --c4s-kw-2:      #f472b6;  /* rosado — DISTINCT */
+  --c4s-str:       #4ade80;  /* verde — strings SQL */
+  --c4s-num:       #fbbf24;  /* ámbar — números/CLP */
+
+  --c4s-mono: 'JetBrains Mono', ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace;
+  --c4s-sans: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+
+  --c4s-radio: .75rem;
+}
+
+/* Reaprovechamos el modo oscuro nativo de Bootstrap 5.3 */
+[data-bs-theme="dark"] {
+  --bs-body-bg: var(--c4s-bg);
+  --bs-body-color: var(--c4s-text);
+}
